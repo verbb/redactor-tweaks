@@ -6,6 +6,10 @@
     line-height: 1.6em;
 }
 
+.redactor-dropdown {
+    font-family: inherit !important;
+}
+
 .redactor-air li a,
 .redactor-toolbar li a {
     height: 40px !important;
