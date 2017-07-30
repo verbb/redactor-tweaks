@@ -10,6 +10,10 @@
     font-family: inherit !important;
 }
 
+.redactor-link-tooltip {
+    font-family: inherit !important;
+}
+
 .redactor-air li a,
 .redactor-toolbar li a {
     height: 40px !important;
