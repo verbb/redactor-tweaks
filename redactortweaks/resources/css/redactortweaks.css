@@ -1,0 +1,32 @@
+.redactor-box {}
+
+.redactor-box .redactor-styles {
+    font-family: Helvetica, Arial;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+.redactor-air li a,
+.redactor-toolbar li a {
+    height: 40px !important;
+}
+
+.redactor-air li a.re-button-icon,
+.redactor-toolbar li a.re-button-icon {
+    padding: 12px !important;
+    font-size: 14px !important;
+}
+
+.redactor-box .redactor-styles h1,
+.redactor-box .redactor-styles h2,
+.redactor-box .redactor-styles h3,
+.redactor-box .redactor-styles h4,
+.redactor-box .redactor-styles h5,
+.redactor-box .redactor-styles h6 {
+    font-family: Helvetica, Arial;
+}
+
+ul.redactor-dropdown {
+    font-family: Helvetica, Arial;
+    max-height: 400px;
+}
