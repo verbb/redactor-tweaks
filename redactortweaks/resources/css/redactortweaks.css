@@ -1,7 +1,7 @@
 .redactor-box {}
 
 .redactor-box .redactor-styles {
-    font-family: Helvetica, Arial;
+    font-family: inherit !important;
     font-size: 14px;
     line-height: 1.6em;
 }
