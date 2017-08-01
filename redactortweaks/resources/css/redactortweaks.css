@@ -46,6 +46,31 @@
     font-family: Helvetica, Arial;
 }
 
+.redactor-dropdown-box-format .redactor-dropdown-h1 {
+    font-size: 32px !important;
+    line-height: 36px !important;
+}
+
+.redactor-dropdown-box-format .redactor-dropdown-h2 {
+    font-size: 24px !important;
+    line-height: 36px !important;
+}
+
+.redactor-dropdown-box-format .redactor-dropdown-h3 {
+    font-size: 21px !important;
+    line-height: 30px !important;
+}
+
+.redactor-dropdown-box-format .redactor-dropdown-h4 {
+    font-size: 18px !important;
+    line-height: 26px !important;
+}
+
+.redactor-dropdown-box-format .redactor-dropdown-h5 {
+    font-size: 16px !important;
+    line-height: 23px !important;
+}
+
 ul.redactor-dropdown {
     font-family: Helvetica, Arial;
     max-height: 400px;
