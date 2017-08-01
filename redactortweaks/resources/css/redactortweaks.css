@@ -1,4 +1,7 @@
-.redactor-box {}
+.redactor-box textarea {
+    font-size: 13px !important;
+    line-height: 1.4em !important;
+}
 
 .redactor-box .redactor-styles {
     font-family: inherit !important;
