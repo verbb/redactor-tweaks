@@ -25,6 +25,15 @@
     font-size: 14px !important;
 }
 
+.redactor-air li a .re-button-tooltip,
+.redactor-toolbar li a .re-button-tooltip {
+    font-family: Helvetica, Arial !important;
+    padding: 5px 8px !important;
+    bottom: -22px !important;
+    color: #fff !important;
+    z-index: 1;
+}
+
 .redactor-box .redactor-styles h1,
 .redactor-box .redactor-styles h2,
 .redactor-box .redactor-styles h3,
