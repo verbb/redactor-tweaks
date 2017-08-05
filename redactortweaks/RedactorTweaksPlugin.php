@@ -9,7 +9,7 @@ class RedactorTweaksPlugin extends BasePlugin
     
     public function getName()
     {
-        return Craft::t('Redcator Fixes');
+        return Craft::t('Redactor Tweaks');
     }
 
     public function getVersion()
