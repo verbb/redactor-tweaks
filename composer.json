@@ -1,0 +1,51 @@
+{
+    "name": "verbb/redactor-tweaks",
+    "description": "A small Craft CMS that provides some tweaks to the default Redactor II Rich Text fieldtype.",
+    "type": "craft-plugin",
+    "version": "2.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "redactor"
+    ],
+    "support": {
+        "email": "support@verbb.io",
+        "issues": "https://github.com/verbb/redactor-tweaks/issues?state=open",
+        "source": "https://github.com/verbb/redactor-tweaks",
+        "docs": "https://github.com/verbb/redactor-tweaks",
+        "rss": "https://github.com/verbb/redactor-tweaks/commits/v2.atom"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Verbb",
+            "homepage": "https://verbb.io"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "verbb\\redactortweaks\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Redactor Tweaks",
+        "handle": "redactor-tweaks",
+        "description": "A small Craft CMS that provides some tweaks to the default Redactor II Rich Text fieldtype.",
+        "schemaVersion": "1.0.0",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/verbb/redactor-tweaks/craft-3/CHANGELOG.md",
+        "class": "verbb\\redactortweaks\\RedactorTweaks"
+    }
+}
