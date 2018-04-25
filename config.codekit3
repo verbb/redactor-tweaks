@@ -7,7 +7,7 @@
 		"uuidString": "ECE3F09A-2816-43C6-9715-3F4A30BD28C5"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -100,6 +100,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/src\/icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/src\/RedactorTweaks.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -142,7 +152,8 @@
 	"creationDate": 528723773,
 	"displayValue": "redactor-tweaks",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ariel"
+	"iconImageName": "meme-ariel",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1945,6 +1956,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
