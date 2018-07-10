@@ -1,82 +1,59 @@
-.redactor-box textarea {
-    font-size: 13px !important;
-    line-height: 1.4em !important;
-}
 
 .input .redactor-styles {
-    font-size: 13px !important;
-    line-height: 1.4em !important;
-}
-
-.redactor-box .redactor-styles {
-    font-family: inherit !important;
-    font-size: 14px;
-    line-height: 1.6em;
-}
-
-.redactor-dropdown {
-    font-family: inherit !important;
-}
-
-.redactor-link-tooltip {
-    font-family: inherit !important;
-}
-
-.redactor-air li a,
-.redactor-toolbar li a {
-    height: 32px !important;
-}
-
-.redactor-air li a.re-button-icon,
-.redactor-toolbar li a.re-button-icon {
-    padding: 9px 10px !important;
     font-size: 14px !important;
+    line-height: 20px !important;
 }
 
-.redactor-air li a .re-button-tooltip,
-.redactor-toolbar li a .re-button-tooltip {
-    font-family: Helvetica, Arial !important;
-    padding: 5px 8px !important;
-    bottom: -22px !important;
-    color: #fff !important;
-    z-index: 1;
+.input .redactor-toolbar {
+    padding: 0 !important;
+    border-bottom: 1px solid #e3e5e8 !important;
 }
 
-.redactor-box .redactor-styles h1,
-.redactor-box .redactor-styles h2,
-.redactor-box .redactor-styles h3,
-.redactor-box .redactor-styles h4,
-.redactor-box .redactor-styles h5,
-.redactor-box .redactor-styles h6 {
-    font-family: Helvetica, Arial;
+.redactor-toolbar a.re-button-icon {
+    box-shadow: none !important;
+    padding: 10px 12px !important;
+    margin: 0 !important;
+    border-right: 1px solid rgba(0, 0, 0, 0.05) !important;
+    border-radius: 0 !important;
+    font-size: 14px !important;
+    background: #fff !important;
+    color: #000 !important;
+
+    &:hover {
+        background-color: #d5d8dd !important;
+        color: #000 !important;
+    }
 }
 
-.redactor-dropdown-box-format .redactor-dropdown-h1 {
-    font-size: 32px !important;
-    line-height: 36px !important;
+
+//
+// Features
+//
+
+.redactor-source {
+    font-size: 12px !important;
+    line-height: 18px !important;
 }
 
-.redactor-dropdown-box-format .redactor-dropdown-h2 {
+
+// Headings
+body .redactor-dropdown-format .redactor-dropdown-item-h1 {
+    font-size: 28px !important;
+    line-height: 32px !important;
+}
+body .redactor-dropdown-format .redactor-dropdown-item-h2 {
     font-size: 24px !important;
     line-height: 36px !important;
 }
-
-.redactor-dropdown-box-format .redactor-dropdown-h3 {
+body .redactor-dropdown-format .redactor-dropdown-item-h3 {
     font-size: 21px !important;
     line-height: 30px !important;
 }
-
-.redactor-dropdown-box-format .redactor-dropdown-h4 {
+body .redactor-dropdown-format .redactor-dropdown-item-h4 {
     font-size: 18px !important;
     line-height: 26px !important;
 }
-
-.redactor-dropdown-box-format .redactor-dropdown-h5 {
+body .redactor-dropdown-format .redactor-dropdown-item-h5 {
     font-size: 16px !important;
     line-height: 23px !important;
-}
-
-ul.redactor-dropdown {
-    font-family: Helvetica, Arial;
-    max-height: 400px;
 }

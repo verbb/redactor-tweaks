@@ -2,7 +2,7 @@
     "name": "verbb/redactor-tweaks",
     "description": "A small Craft CMS that provides some tweaks to the default Redactor II Rich Text fieldtype.",
     "type": "craft-plugin",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "keywords": [
         "craft",
         "cms",
