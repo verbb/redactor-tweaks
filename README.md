@@ -1,4 +1,4 @@
-# Redactor-Tweaks
+# Redactor Tweaks for Craft CMS
 A small Craft CMS that provides some tweaks to the default Redactor II Rich Text fieldtype.
 
 Provides the following:
@@ -35,6 +35,12 @@ To install the plugin, follow these instructions.
         composer require verbb/redactor-tweaks
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Redactor Tweaks.
+
+## Show your Support
+
+Redactor Tweaks is licensed under the MIT license, meaning it will always be free and open source – we love free stuff! If you'd like to show your support to the plugin regardless, buy us a :beers:. Please note that this does not entitle you to any form of support, and is completely optional.
+
+[![Beerpay](https://beerpay.io/verbb/redactor-tweaks/badge.svg?style=beer-square)](https://beerpay.io/verbb/redactor-tweaks)
 
 <h2></h2>
 
