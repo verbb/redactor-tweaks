@@ -1,5 +1,5 @@
 # Redactor Tweaks for Craft CMS
-A small Craft CMS that provides some tweaks to the default Redactor II Rich Text fieldtype.
+A small Craft CMS plugin that provides some tweaks to the default Redactor II Rich Text fieldtype.
 
 Provides the following:
 
