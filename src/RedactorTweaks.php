@@ -1,6 +1,8 @@
 <?php
 namespace verbb\redactortweaks;
 
+use verbb\redactortweaks\base\PluginTrait;
+
 use Craft;
 use craft\base\Plugin;
 use craft\events\RegisterComponentTypesEvent;
@@ -10,10 +12,16 @@ use yii\base\Event;
 
 class RedactorTweaks extends Plugin
 {
-    // Static Properties
+    // Public Properties
     // =========================================================================
 
-    public static $plugin;
+    public $schemaVersion = '1.0.0';
+
+
+    // Traits
+    // =========================================================================
+
+    use PluginTrait;
 
 
     // Public Methods
@@ -24,6 +32,9 @@ class RedactorTweaks extends Plugin
         parent::init();
 
         self::$plugin = $this;
+
+        $this->_setPluginComponents();
+        $this->_setLogging();
 
         if (Craft::$app->getPlugins()->getPlugin('redactor') && Craft::$app->getRequest()->isCpRequest) {
             Craft::$app->getView()->registerAssetBundle(RedactorTweaksAsset::class);

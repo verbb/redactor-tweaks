@@ -5,6 +5,8 @@ use craft\web\AssetBundle;
 use craft\web\assets\cp\CpAsset;
 use craft\redactor\assets\redactor\RedactorAsset;
 
+use verbb\base\assetbundles\CpAsset as VerbbCpAsset;
+
 class RedactorTweaksAsset extends AssetBundle
 {
     public function init()
@@ -12,6 +14,7 @@ class RedactorTweaksAsset extends AssetBundle
         $this->sourcePath = '@verbb/redactortweaks/resources/dist';
 
         $this->depends = [
+            VerbbCpAsset::class,
             CpAsset::class,
             RedactorAsset::class,
         ];
