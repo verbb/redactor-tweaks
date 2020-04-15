@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.0.3 - 2020-04-15
+
+### Added
+- Craft 3.4 compatibility.
+
+### Changed
+- File logging now checks if the overall Craft app uses file logging.
+- Log files now only include `GET` and `POST` additional variables.
+
 ## 2.0.2 - 2018-07-10
 
 - Update compatibility for Redactor 3.x.x.
