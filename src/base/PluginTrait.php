@@ -44,10 +44,7 @@ trait PluginTrait
 
     private function _setLogging()
     {
-        Craft::getLogger()->dispatcher->targets[] = new FileTarget([
-            'logFile' => Craft::getAlias('@storage/logs/redactor-tweaks.log'),
-            'categories' => ['redactor-tweaks'],
-        ]);
+        BaseHelper::setFileLogging('redactor-tweaks');
     }
 
 }
