@@ -4,7 +4,6 @@ namespace verbb\redactortweaks\base;
 use verbb\redactortweaks\RedactorTweaks;
 
 use Craft;
-use craft\log\FileTarget;
 
 use yii\log\Logger;
 
@@ -18,7 +17,7 @@ trait PluginTrait
     public static RedactorTweaks $plugin;
 
 
-    // Public Methods
+    // Static Methods
     // =========================================================================
 
     public static function log($message): void

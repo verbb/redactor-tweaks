@@ -5,10 +5,6 @@ use verbb\redactortweaks\base\PluginTrait;
 
 use Craft;
 use craft\base\Plugin;
-use craft\events\RegisterComponentTypesEvent;
-use craft\redactor\Field as RedactorField;
-
-use yii\base\Event;
 
 class RedactorTweaks extends Plugin
 {

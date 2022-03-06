@@ -9,6 +9,9 @@ use verbb\base\assetbundles\CpAsset as VerbbCpAsset;
 
 class RedactorTweaksAsset extends AssetBundle
 {
+    // Public Methods
+    // =========================================================================
+
     public function init(): void
     {
         $this->sourcePath = '@verbb/redactortweaks/resources/dist';
@@ -20,7 +23,7 @@ class RedactorTweaksAsset extends AssetBundle
         ];
 
         $this->css = [
-            'css/redactor-tweaks.css'
+            'css/redactor-tweaks.css',
         ];
 
         parent::init();
