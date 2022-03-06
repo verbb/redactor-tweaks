@@ -9,7 +9,7 @@ use verbb\base\assetbundles\CpAsset as VerbbCpAsset;
 
 class RedactorTweaksAsset extends AssetBundle
 {
-    public function init()
+    public function init(): void
     {
         $this->sourcePath = '@verbb/redactortweaks/resources/dist';
 

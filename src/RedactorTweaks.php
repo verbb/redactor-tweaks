@@ -12,10 +12,10 @@ use yii\base\Event;
 
 class RedactorTweaks extends Plugin
 {
-    // Public Properties
+    // Properties
     // =========================================================================
 
-    public $schemaVersion = '1.0.0';
+    public string $schemaVersion = '1.0.0';
 
 
     // Traits
@@ -27,7 +27,7 @@ class RedactorTweaks extends Plugin
     // Public Methods
     // =========================================================================
 
-    public function init()
+    public function init(): void
     {
         parent::init();
 

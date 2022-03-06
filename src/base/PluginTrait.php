@@ -1,6 +1,8 @@
 <?php
 namespace verbb\redactortweaks\base;
 
+use verbb\redactortweaks\RedactorTweaks;
+
 use Craft;
 use craft\log\FileTarget;
 
@@ -10,21 +12,21 @@ use verbb\base\BaseHelper;
 
 trait PluginTrait
 {
-    // Static Properties
+    // Properties
     // =========================================================================
 
-    public static $plugin;
+    public static RedactorTweaks $plugin;
 
 
     // Public Methods
     // =========================================================================
 
-    public static function log($message)
+    public static function log($message): void
     {
         Craft::getLogger()->log($message, Logger::LEVEL_INFO, 'redactor-tweaks');
     }
 
-    public static function error($message)
+    public static function error($message): void
     {
         Craft::getLogger()->log($message, Logger::LEVEL_ERROR, 'redactor-tweaks');
     }
@@ -33,7 +35,7 @@ trait PluginTrait
     // Private Methods
     // =========================================================================
 
-    private function _setPluginComponents()
+    private function _setPluginComponents(): void
     {
         $this->setComponents([
 
@@ -42,7 +44,7 @@ trait PluginTrait
         BaseHelper::registerModule();
     }
 
-    private function _setLogging()
+    private function _setLogging(): void
     {
         BaseHelper::setFileLogging('redactor-tweaks');
     }
