@@ -18,7 +18,7 @@ Provides the following:
 ## Installation
 You can install Redactor Tweaks via the plugin store, or through Composer.
 
-### Craft Plugin Store
+## Craft Plugin Store
 To install **Redactor Tweaks**, navigate to the _Plugin Store_ section of your Craft control panel, search for `Redactor Tweaks`, and click the _Try_ button.
 
 ### Composer
