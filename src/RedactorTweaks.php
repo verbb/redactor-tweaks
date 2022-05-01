@@ -29,8 +29,8 @@ class RedactorTweaks extends Plugin
 
         self::$plugin = $this;
 
-        $this->_setPluginComponents();
-        $this->_setLogging();
+        $this->_registerComponents();
+        $this->_registerLogTarget();
 
         if (Craft::$app->getPlugins()->getPlugin('redactor') && Craft::$app->getRequest()->isCpRequest) {
             Craft::$app->getView()->registerAssetBundle(RedactorTweaksAsset::class);
