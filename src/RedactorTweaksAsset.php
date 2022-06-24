@@ -20,7 +20,7 @@ class RedactorTweaksAsset extends AssetBundle
         ];
 
         $this->css = [
-            'css/redactor-tweaks.css'
+            'css/redactor-tweaks.css',
         ];
 
         parent::init();
