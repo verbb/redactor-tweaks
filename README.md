@@ -22,19 +22,17 @@ You can install Redactor Tweaks via the plugin store, or through Composer.
 To install **Redactor Tweaks**, navigate to the _Plugin Store_ section of your Craft control panel, search for `Redactor Tweaks`, and click the _Try_ button.
 
 ### Composer
-You can also add the package to your project using Composer.
-
-To install the plugin, follow these instructions.
+You can also add the package to your project using Composer and the command line.
 
 1. Open your terminal and go to your Craft project:
+```shell
+cd /path/to/project
+```
 
-        cd /path/to/project
-
-2. Then tell Composer to load the plugin:
-    
-        composer require verbb/redactor-tweaks
-
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Redactor Tweaks.
+2. Then tell Composer to require the plugin, and Craft to install it:
+```shell
+composer require verbb/redactor-tweaks && php craft plugin/install redactor-tweaks
+```
 
 ## Show your Support
 
