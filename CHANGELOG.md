@@ -1,6 +1,11 @@
 # Changelog
 
-## 3.0.0- 2022-08-15
+## 3.0.1 - 2023-09-19
+
+### Changed
+- New plugin icon.
+
+## 3.0.0 - 2022-08-15
 
 ### Changed
 - Now requires PHP `8.0.2+`.
