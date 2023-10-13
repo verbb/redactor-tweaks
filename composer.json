@@ -2,7 +2,7 @@
     "name": "verbb/redactor-tweaks",
     "description": "Provide some tweaks for Redactor.",
     "type": "craft-plugin",
-    "version": "3.0.1",
+    "version": "4.0.0-beta.1",
     "keywords": [
         "craft",
         "cms",
@@ -25,20 +25,21 @@
         }
     ],
     "require": {
-        "php": "^8.0.2",
-        "craftcms/cms": "^4.0.0",
-        "verbb/base": "^2.0.0"
+        "php": "^8.2",
+        "craftcms/cms": "^5.0.0-alpha.1",
+        "craftcms/redactor": "^4.0.0-alpha.1",
+        "verbb/base": "^3.0.0-beta.1"
     },
     "autoload": {
         "psr-4": {
-          "verbb\\redactortweaks\\": "src/"
+            "verbb\\redactortweaks\\": "src/"
         }
     },
     "extra": {
         "name": "Redactor Tweaks",
         "handle": "redactor-tweaks",
         "description": "A small Craft CMS plugin that provides some tweaks to the default Redactor II Rich Text fieldtype.",
-        "changelogUrl": "https://raw.githubusercontent.com/verbb/redactor-tweaks/craft-4/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/verbb/redactor-tweaks/craft-5/CHANGELOG.md",
         "class": "verbb\\redactortweaks\\RedactorTweaks"
     }
 }
