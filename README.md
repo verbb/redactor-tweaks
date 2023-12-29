@@ -1,5 +1,5 @@
 # Redactor Tweaks plugin for Craft CMS
-<img width="500" src="https://verbb.imgix.net/plugins/redactor-tweaks/redactor-tweaks-social-card.png?v=1">
+<img width="500" src="https://verbb.imgix.net/plugins/redactor-tweaks/redactor-tweaks-social-card.png?v=2">
 
 Redactor Tweaks is a Craft CMS plugin that provides some tweaks to the default Redactor field.
 
