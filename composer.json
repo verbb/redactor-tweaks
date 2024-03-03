@@ -31,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-          "verbb\\redactortweaks\\": "src/"
+            "verbb\\redactortweaks\\": "src/"
         }
     },
     "extra": {
