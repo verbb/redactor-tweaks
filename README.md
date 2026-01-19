@@ -1,4 +1,4 @@
-<p align="center"><img src="https://verbb.imgix.net/plugins/redactor-tweaks/redactor-tweaks-icon.svg" width="100" height="100" alt="Redactor Tweaks icon"></p>
+<p align="center"><img src="https://assets.verbb.io/plugins/redactor-tweaks/redactor-tweaks-icon.svg" width="100" height="100" alt="Redactor Tweaks icon"></p>
 <h1 align="center">Redactor Tweaks for Craft CMS</h1>
 
 Redactor Tweaks is a Craft CMS plugin that provides some tweaks to the default Redactor field.
