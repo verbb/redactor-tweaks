@@ -2,7 +2,7 @@
     "name": "verbb/redactor-tweaks",
     "description": "Provide some tweaks for Redactor.",
     "type": "craft-plugin",
-    "version": "4.0.1",
+    "version": "4.0.2",
     "keywords": [
         "craft",
         "cms",
