@@ -4,7 +4,7 @@
 Redactor Tweaks is a Craft CMS plugin that provides some tweaks to the default Redactor field.
 
 Provides the following:
-- Change default font from Trebuchet MS to Helvetica 
+- Change default font from Trebuchet MS to Helvetica
 - Change default font size from 16px to 14px
 - Change default toolbar button size from 16px to 12px (smaller buttons)
 
