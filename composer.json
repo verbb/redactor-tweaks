@@ -1,6 +1,6 @@
 {
     "name": "verbb/redactor-tweaks",
-    "description": "Provide some tweaks for Redactor.",
+    "description": "A Craft CMS plugin that gives Redactor fields a more compact interface.",
     "type": "craft-plugin",
     "version": "4.0.2",
     "keywords": [
@@ -38,7 +38,6 @@
     "extra": {
         "name": "Redactor Tweaks",
         "handle": "redactor-tweaks",
-        "description": "A small Craft CMS plugin that provides some tweaks to the default Redactor II Rich Text fieldtype.",
         "changelogUrl": "https://raw.githubusercontent.com/verbb/redactor-tweaks/craft-5/CHANGELOG.md",
         "class": "verbb\\redactortweaks\\RedactorTweaks"
     }
