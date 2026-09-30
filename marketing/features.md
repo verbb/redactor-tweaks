@@ -7,7 +7,7 @@ Redactor Tweaks makes small, deliberate adjustments to the editing interface for
 
 Use a smaller default font, text size, and toolbar controls so the field consumes less space in the control panel. The changes target the authoring interface rather than rewriting the HTML stored by Redactor.
 
-![A Redactor field with Redactor Tweaks active](../screenshots/output/feature-tour/redactor-tweaks-after.png)
+![A Redactor field with Redactor Tweaks active](../screenshots/redactor-tweaks-after.png)
 
 <!-- feature-section-end -->
 
