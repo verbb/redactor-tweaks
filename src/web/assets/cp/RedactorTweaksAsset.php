@@ -1,11 +1,11 @@
 <?php
-namespace verbb\redactortweaks;
+namespace verbb\redactortweaks\web\assets\cp;
 
 use craft\web\AssetBundle;
 use craft\web\assets\cp\CpAsset;
-use craft\redactor\assets\redactor\RedactorAsset;
 
-use verbb\base\assetbundles\CpAsset as VerbbCpAsset;
+use craft\redactor\assets\redactor\RedactorAsset;
+use verbb\base\web\assets\cp\CpAsset as VerbbCpAsset;
 
 class RedactorTweaksAsset extends AssetBundle
 {
@@ -14,7 +14,7 @@ class RedactorTweaksAsset extends AssetBundle
 
     public function init(): void
     {
-        $this->sourcePath = '@verbb/redactortweaks/resources/dist';
+        $this->sourcePath = '@verbb/redactortweaks/web/assets/cp/dist';
 
         $this->depends = [
             VerbbCpAsset::class,
@@ -23,7 +23,7 @@ class RedactorTweaksAsset extends AssetBundle
         ];
 
         $this->css = [
-            'css/redactor-tweaks.css',
+            'redactor-tweaks.css',
         ];
 
         parent::init();

@@ -2,6 +2,7 @@
 namespace verbb\redactortweaks;
 
 use verbb\redactortweaks\base\PluginTrait;
+use verbb\redactortweaks\web\assets\cp\RedactorTweaksAsset;
 
 use Craft;
 use craft\base\Plugin;
