@@ -8,5 +8,3 @@ Use a smaller default font, text size, and toolbar controls so the field consume
 - Use a familiar interface font in place of Redactor's default.
 - Reduce button size so formatting controls take up less room.
 - Adjust the control-panel editor without changing saved content.
-- Apply to fields provided by Craft's Redactor plugin.
-- Keep the interface treatment consistent across eligible fields.

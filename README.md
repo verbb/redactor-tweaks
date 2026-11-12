@@ -11,20 +11,22 @@ Use a smaller default font, text size, and toolbar controls so the field consume
 - Use a familiar interface font in place of Redactor's default.
 - Reduce button size so formatting controls take up less room.
 - Adjust the control-panel editor without changing saved content.
-- Apply to fields provided by Craft's Redactor plugin.
-- Keep the interface treatment consistent across eligible fields.
 
 ## Documentation
+
 Visit the [Redactor Tweaks Plugin page](https://verbb.io/craft-plugins/redactor-tweaks) for all documentation, guides, pricing and developer resources.
 
 ## Credit & Thanks
+
 Originally created by the team at [Superbig](https://superbig.co/).
 
 ## Support
-Get in touch with us via the [Redactor Tweaks Support page](https://verbb.io/craft-plugins/redactor-tweaks/support) or by [creating a Github issue](https://github.com/verbb/redactor-tweaks/issues)
+
+Get in touch with us via the [Redactor Tweaks Support page](https://verbb.io/craft-plugins/redactor-tweaks/support) or by [creating a GitHub issue](https://github.com/verbb/redactor-tweaks/issues).
 
 ## Sponsor
-Redactor Tweaks is licensed under the MIT license, meaning it will always be free and open source - we love free stuff! If you'd like to show your support to the plugin regardless, [Sponsor](https://github.com/sponsors/verbb) development.
+
+Redactor Tweaks is licensed under the MIT license, so it will always be free and open source. If you'd like to support it anyway, you can [sponsor its development](https://github.com/sponsors/verbb).
 
 <h2></h2>
 
